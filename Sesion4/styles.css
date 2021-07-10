@@ -1,0 +1,19 @@
+.padre{
+display: flex;
+background-color: green;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ /* align es en columnas jusify es para filas */
+ width: 500px;
+ height: 1000px;
+
+}
+
+.padre > div{
+  background-color: red;
+  width: 20px;
+  height: 20px;
+
+}
