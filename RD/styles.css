@@ -1,0 +1,42 @@
+/*
+@media (max-with: 575px) {
+
+}
+
+@media (min-with: 576px and max-with: 1000) {
+
+}
+@media (min-with: 1100px) {
+
+} */
+
+body{
+background-color: red;
+
+}
+img{
+  width: 10px;
+  height: 10px;
+}
+
+@media (min-width: 100px) {
+  body{
+  background-color: green;
+
+  }
+
+  img{
+    width: 150px;
+    height: 100px;
+  }
+@media (min-width: 600px) {
+  body{
+  background-color: blue;
+
+  }
+  img{
+    width: 200px;
+    height: 250px;
+  }
+
+}

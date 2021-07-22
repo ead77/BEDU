@@ -1,0 +1,28 @@
+.acomodar{
+
+  display: grid;
+
+  grid-template-columns:  2fr 2fr ;
+  grid-template-rows: 1fr 1fr ;
+  gap: 10px;
+
+  /* margin: 50px; */
+
+  padding: 50px;
+
+
+
+}
+
+section{
+  background-color: blue;
+
+}
+
+article{
+  background-color: green;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px
+}
